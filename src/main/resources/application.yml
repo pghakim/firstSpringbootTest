@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: test
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/jdbctest
+    username: root
+    password: awwaqes
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
